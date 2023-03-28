@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  :root {
+    --primary: 25deg 97% 53%;
+    --text-base: 217deg 12% 63%;
+    --card-active: 216deg 12% 54%;
+    --card-fill: 213deg 19% 18%;
+    --main-fill: 216deg 12% 8%;
+
+    --ff-primary: "Overpass", sans-serif;
+
+    --fs-400: 0.875rem; /* 14px */
+    --fs-500: 0.9375rem; /* 15px */
+    --fs-600: 1.5rem; /* 24px */
+
+    --tracking-btn: 0.075em;
+  }
+
+  @screen sm {
+    :root {
+      --fs-400: 0.9375rem;
+      --fs-500: 1rem; /* 16px tracking: 0.075em */
+      --fs-600: 1.75rem; /* 28px */
+      --fs-text: var(var(--fs-400)); /* leading: 1.65 */
+    }
+  }
+}
+
+@layer components {
+  .text-title {
+    @apply text-[length:var(--fs-600)];
+  }
+
+  .text-body {
+    @apply text-[length:var(--fs-400)] leading-6;
+  }
+
+  .text-number {
+    @apply text-[length:var(--fs-400)];
+  }
+
+  .text-btn {
+    @apply text-[length:var(--fs-500)] tracking-btn;
+  }
+}
+
+@layer variants {
+  @screen sm {
+    .text-body {
+      @apply leading-relaxed;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import { useAtom, useSetAtom } from "jotai";
-import { rateAtom, modalAtom } from "../src/store";
+import { rateAtom, modalAtom } from "../store";
 
 const Btn = () => {
   const setShow = useSetAtom(modalAtom);

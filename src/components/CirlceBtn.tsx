@@ -1,6 +1,6 @@
 import { useAtom } from "jotai";
 import React from "react";
-import { rateAtom } from "../src/store";
+import { rateAtom } from "../store";
 
 const CircleBtn: React.FC<
   React.DetailedHTMLProps<

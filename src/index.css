@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,7 +27,7 @@
       --fs-400: 0.9375rem;
       --fs-500: 1rem; /* 16px tracking: 0.075em */
       --fs-600: 1.75rem; /* 28px */
-      --fs-text: var(var(--fs-400)); /* leading: 1.65 */
+      --fs-text: var(--fs-400); /* leading: 1.65 */
     }
   }
 }

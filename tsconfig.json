@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "components/CirlceBtn.tsx", "components/Btn.tsx"],
+  "include": ["src", "src/components/CirlceBtn.tsx", "src/components/Btn.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

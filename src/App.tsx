@@ -1,5 +1,5 @@
-import CircleBtn from "../components/CirlceBtn";
-import Btn from "../components/Btn";
+import CircleBtn from "./components/CirlceBtn";
+import Btn from "./components/Btn";
 import { Star, ThankYou } from "./icons";
 import { useAtomValue } from "jotai";
 import { modalAtom, rateAtom } from "./store";
@@ -33,8 +33,8 @@ function App() {
         appreciated to help us improve our offering!
       </p>
       <ul className="flex justify-between">
-        {[1, 2, 3, 4, 5].map((num, idx) => (
-          <CircleBtn key={idx} title={`${num}`}>
+        {[1, 2, 3, 4, 5].map((num) => (
+          <CircleBtn key={num} title={`${num}`}>
             {num}
           </CircleBtn>
         ))}

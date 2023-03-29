@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Antonio0402/interactive-rating-component-with-react)
-- Live Site URL: [Click here](https://interactive-rating-component-with-jotai.netlify.app/)
+- Solution URL: [Click here](https://github.com/Antonio0402/interactive-rating-component-with-jotai)
+- Live Site URL: [Click here](https://interactive-rating-component-jotai.netlify.app/)
 
 ## My process
 
